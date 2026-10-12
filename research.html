@@ -1,1 +1,980 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Research, industrial automation and teaching portfolio of Mustapha K. Khaldi, PhD."><title>Research &amp; Publications | Mustapha K. Khaldi, PhD</title><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/main.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="container header-inner"><a class="logo" href="index.html" aria-label="Mustapha Khaldi home">MK.</a><nav class="nav" id="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="research.html" aria-current="page">Research</a><a href="industrial-automation.html">Industrial Automation</a><a href="teaching.html">Teaching & Technical Training</a><a href="about.html">About</a><a href="cv.html">CV</a><a href="index.html#contact">Contact</a></nav><div class="header-actions"><button class="theme-toggle" data-theme-toggle type="button">Theme</button><button class="menu-toggle" data-menu-toggle type="button" aria-controls="main-nav" aria-expanded="false">Menu</button></div></div></header><main id="main"><div class="container"><div class="page-hero"><div class="overline">Portfolio / Research</div><h1>Research &amp; Publications</h1><p class="lead">Advanced process control, data-driven modeling, autonomous systems and applied AI.</p></div><div class="page-content"><div class="notice">Draft detail page. Research descriptions and publication metadata will be reviewed during the final verification phase.</div><h2>Research areas</h2><div class="index-row"><span class="num">01</span><h3>Advanced Process Control</h3><p>MPC, dual-mode MPC, disturbance rejection, and nonlinear or adaptive control for industrial processes.</p></div><div class="index-row"><span class="num">02</span><h3>Data-Driven Modeling & System Identification</h3><p>Koopman operators, neural networks, NARX and block-oriented modeling for chemical processes.</p></div><div class="index-row"><span class="num">03</span><h3>Autonomous Systems & Intelligent Mobility</h3><p>Trajectory tracking, obstacle avoidance, predictive control and traffic forecasting.</p></div><div class="index-row"><span class="num">04</span><h3>Applied AI & Scientific Machine Learning</h3><p>Embedded computer vision, semantic normalization, embeddings and scientific visualization.</p></div><h2>Selected publications</h2><div class="publication"><span class="year">2026</span><div><strong>Koopman-Lifted Dual-Mode Predictive Control for Disturbance Rejection in Industrial Processes</strong><br><a href="https://doi.org/10.1016/j.conengprac.2026.106918" target="_blank" rel="noopener noreferrer">DOI: 10.1016/j.conengprac.2026.106918 ↗</a></div></div><div class="publication"><span class="year">2025</span><div><strong>From Block-Oriented Models to the Koopman Operator: A Comprehensive Review on Data-Driven Chemical Reactor Modeling</strong><br><a href="https://doi.org/10.3390/math13152411" target="_blank" rel="noopener noreferrer">DOI: 10.3390/math13152411 ↗</a></div></div><div class="publication"><span class="year">2024</span><div><strong>Identification of Crude Distillation Unit: A Comparison between Neural Network and Koopman Operator</strong><br><a href="https://doi.org/10.3390/a17080368" target="_blank" rel="noopener noreferrer">DOI: 10.3390/a17080368 ↗</a></div></div><h2>Additional publications</h2><p>The complete verified publication list, accessible paper summaries and supporting technical demonstrations will be added here. An under-review manuscript will remain explicitly distinguished from published work.</p></div></div></main><footer class="footer"><div class="container footer-inner"><div><strong>Mustapha K. Khaldi, PhD</strong><div class="small">Control Systems Researcher, Engineer & Educator</div></div><div><a href="mailto:khaldi.mustapha.k@gmail.com">Email</a><a href="research.html">Research</a><a href="teaching.html">Teaching</a><div class="small">© <span id="year">2026</span> Mustapha K. Khaldi</div></div></div></footer></body></html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Research, industrial automation and teaching portfolio of Mustapha K. Khaldi, PhD."
+        name="description" />
+    <title>Research &amp; Publications | Mustapha K. Khaldi, PhD</title>
+    <script src="assets/js/theme-init.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <meta name="theme-color" content="#F8F7F3" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#111B25" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mustapha K. Khaldi, PhD">
+    <meta property="og:title" content="Research &amp; Publications | Mustapha K. Khaldi, PhD">
+    <meta property="og:description"
+        content="Research, industrial automation and teaching portfolio of Mustapha K. Khaldi, PhD.">
+    <meta name="twitter:card" content="summary">
+    <script defer="" src="assets/js/main.js"></script>
+</head>
+
+<body><a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-inner"><a aria-label="Mustapha Khaldi home" class="logo" href="index.html">Mustapha K. Khaldi, PhD.</a>
+            <nav aria-label="Main navigation" class="nav" id="main-nav"><a href="index.html">Home</a><a
+                    aria-current="page" href="research.html">Research</a><a href="industrial-automation.html">Industrial
+                    Automation</a><a href="teaching.html">Teaching &amp; Technical Training</a><a
+                    href="cv.html">CV</a><a href="index.html#contact">Contact</a></nav>
+            <div class="header-actions"><button class="theme-toggle" data-theme-toggle=""
+                    type="button">Theme</button><button aria-controls="main-nav" aria-expanded="false"
+                    class="menu-toggle" data-menu-toggle="" type="button">Menu</button></div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <section aria-labelledby="research-title" class="research-intro">
+                <div class="overline">Research / Overview</div>
+                <h1 id="research-title">Modeling, Control &amp; Intelligence for Complex Dynamical Systems</h1>
+                <p class="lead">My research focuses on advanced predictive control, data-driven modeling, and
+                    intelligent systems. I investigate how mathematical models, Koopman operator theory, and machine
+                    learning can improve the prediction, control, and understanding of complex nonlinear processes.</p>
+                <p>My work spans industrial chemical processes, intelligent transportation, autonomous systems, and
+                    embedded AI, connecting theoretical developments with engineering applications.</p>
+                <div class="research-keywords">
+                    <span>Advanced Process Control</span>
+                    <span>Real-time Optimization</span>
+                    <span>Koopman Operator</span>
+                    <span>System Identification</span>
+                    <span>Deep Learning</span>
+                    <span>Machine Learning</span>
+                </div>
+                <nav aria-label="Research page sections" class="research-jump"><a href="#areas">Research areas</a><a
+                        href="#featured">Selected publications</a><a href="#complete">Complete record</a></nav>
+            </section>
+            <section class="research-section" id="areas">
+                <div class="research-section-head">
+                    <div class="overline">01 / Research Areas</div>
+                    <h2>Research Areas</h2>
+                </div>
+                <div class="research-area-list">
+                    <article class="research-area"><span class="research-area-num">01</span>
+                        <div>
+                            <h3>Advanced Process Control</h3>
+                            <p>Development and evaluation of advanced control strategies for industrial processes,
+                                including Model Predictive Control (MPC), dual-mode predictive control, disturbance
+                                rejection, offset-free tracking, stability guarantees, constraint handling, and
+                                real-time optimization.</p>
+                            <div class="research-methods">MPC · Dual-Mode MPC · Disturbance Rejection</div>
+                        </div>
+                    </article>
+                    <article class="research-area"><span class="research-area-num">02</span>
+                        <div>
+                            <h3>Data-Driven Modeling &amp; System Identification</h3>
+                            <p>Modeling and forecasting of nonlinear dynamical systems using Koopman operators, deep
+                                neural networks, and block-oriented models.</p>
+                            <div class="research-methods">Koopman · Neural Networks · Hammerstein–Wiener</div>
+                        </div>
+                    </article>
+                    <article class="research-area"><span class="research-area-num">03</span>
+                        <div>
+                            <h3>Autonomous Systems &amp; Intelligent Mobility</h3>
+                            <p>Application of advanced control and machine learning to autonomous robotics and
+                                intelligent transportation, including trajectory tracking, obstacle avoidance,
+                                predictive control, and traffic forecasting.</p>
+                            <div class="research-methods">Intelligent Mobility · Robotics · Trajectory Tracking ·
+                                Traffic
+                                Forecasting</div>
+                        </div>
+                    </article>
+                    <article class="research-area"><span class="research-area-num">04</span>
+                        <div>
+                            <h3>Applied AI &amp; Scientific Machine Learning</h3>
+                            <p>Embedded computer vision for UAV and ground-robot logistics, including real-time
+                                YOLO-based object detection, together with scientific machine-learning tools for keyword
+                                normalization, semantic embeddings, and bibliometric visualization.</p>
+                            <div class="research-methods">Embedded AI · Computer Vision · Semantic Embeddings ·
+                                Bibliometric Visualization</div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="research-section" id="featured">
+                <div class="research-section-head">
+                    <div class="overline">02 / Selected Publications</div>
+                    <h2>Selected Publications</h2>
+                </div>
+
+                <!-- 01 / ADVANCED CONTROL -->
+                <article class="research-feature">
+
+                    <!-- TOP: TEXT + FIGURE -->
+                    <div class="research-feature-top">
+
+                        <div class="research-feature-text">
+                            <div class="overline">01 / Advanced Control</div>
+
+                            <h3>Koopman-Lifted Dual-Mode Predictive Control</h3>
+
+                            <p>
+                                Developed a Koopman-based dual-mode predictive control framework integrating disturbance
+                                rejection, integral action, and stability-guaranteed constrained control. Validated on
+                                an industrial-scale Fluid Catalytic Cracking (FCC) fractionator
+                                benchmark, the approach achieved faster set-point tracking, reduced steady-state errors,
+                                and improved disturbance recovery compared with linear MPC, while maintaining comparable
+                                computational efficiency.
+                            </p>
+                        </div>
+
+                        <!-- RESEARCH FIGURE -->
+                        <figure class="research-figure">
+                            <div class="research-figure-frame">
+                                <img src="assets/images/research/KDDMPC.svg" width="1000" height="481"
+                                    alt="Koopman-based dual-mode predictive control controller architecture"
+                                    loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+
+                                <div class="research-image-placeholder" hidden>
+                                    <span>RESEARCH FIGURE</span>
+                                    <strong>
+                                        Controller architecture or disturbance-rejection
+                                        comparison
+                                    </strong>
+                                    <small>
+                                        assets/images/research/KDDMPC.svg
+                                    </small>
+                                </div>
+                            </div>
+
+                            <figcaption>
+                                Koopman-based dual-mode predictive control framework
+                                for disturbance rejection in industrial processes.
+                            </figcaption>
+                        </figure>
+
+                    </div>
+
+                    <!-- FULL-WIDTH RESEARCH OUTCOMES -->
+                    <div class="research-outcomes">
+
+                        <div class="research-outcomes-header">
+                            <h4>Key Research Outcomes</h4>
+                            <p>
+                                Performance improvements demonstrated through
+                                comparative simulations on an industrial-scale
+                                FCC fractionator benchmark.
+                            </p>
+                        </div>
+
+                        <div class="research-outcomes-grid">
+
+                            <div class="research-outcome-card">
+                                <span class="research-outcome-value">78%</span>
+                                <h5>Lower Steady-State Offset</h5>
+                                <p>
+                                    Average offset reduced from 0.83 to 0.18
+                                    under nominal conditions.
+                                </p>
+                            </div>
+
+                            <div class="research-outcome-card">
+                                <span class="research-outcome-value">71%</span>
+                                <h5>Shorter Recovery Time</h5>
+                                <p>
+                                    Light naphtha recovery reduced from
+                                    583 to 171 min in disturbance interval 2.
+                                </p>
+                            </div>
+
+                            <div class="research-outcome-card">
+                                <span class="research-outcome-value">15%</span>
+                                <h5>Lower Disturbance Estimation Error</h5>
+                                <p>
+                                    Average relative RMSE reduced from
+                                    0.815% to 0.689%.
+                                </p>
+                            </div>
+
+                            <div class="research-outcome-card">
+                                <span class="research-outcome-value">21.1 ms</span>
+                                <h5>Average Solver Time per Iteration</h5>
+                                <p>
+                                    Comparable to 21.2 ms for linear
+                                    dual-mode MPC in simulation.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- PUBLICATION DETAILS -->
+                    <div class="research-feature-publication">
+
+                        <p class="research-feature-source">
+                            Control Engineering Practice · 2026
+                        </p>
+
+                        <p class="research-feature-citation">
+                            Khaldi, M.K., Aldhaifallah, M., Khan, B.,
+                            El-Ferik, S., Saif, A.W. and Fouad, W.
+                            <cite class="research-citation-title">Koopman-Lifted Dual-Mode Predictive Control for
+                                Disturbance Rejection in Industrial Processes</cite>.
+                            Control Engineering Practice, 172, 106918.
+                        </p>
+
+                        <a class="section-link" href="https://doi.org/10.1016/j.conengprac.2026.106918"
+                            rel="noopener noreferrer" target="_blank">
+                            Read publication ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 02 / PROCESS MODELING -->
+                <article class="research-feature">
+
+                    <!-- TOP: TEXT + FIGURE -->
+                    <div class="research-feature-top">
+
+                        <div class="research-feature-text">
+
+                            <div class="overline">02 / Process Modeling</div>
+
+                            <h3>Computational Modeling of a Fluid Catalytic Cracking Unit</h3>
+
+                            <p>
+                                Developed a Multi-Headed Long Short-Term Memory (MH-LSTM) framework for multi-step
+                                forecasting of Fluid Catalytic Cracking (FCC) product yields. Recognizing that the
+                                reactor, regenerator, and fractionator operate on different time scales, the
+                                architecture employs dedicated LSTM heads to capture the temporal dynamics of each unit
+                                independently. Their learned representations are then integrated to enable accurate
+                                multivariate predictions. The proposed framework outperformed conventional neural
+                                network architectures in forecasting accuracy and demonstrated strong robustness under
+                                varying noise conditions.
+                            </p>
+
+                        </div>
+
+                        <!-- RESEARCH FIGURE -->
+                        <figure class="research-figure">
+
+                            <div class="research-figure-frame">
+
+                                <img src="assets/images/research/fig_MH_LSTM.svg" width="587" height="645"
+                                    alt="Multi-Headed LSTM architecture for FCC product yield forecasting"
+                                    loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+
+                                <div class="research-image-placeholder" hidden>
+                                    <span>RESEARCH FIGURE</span>
+                                    <strong>
+                                        Multi-Headed LSTM architecture
+                                    </strong>
+                                    <small>
+                                        assets/images/research/fig_MH_LSTM.svg
+                                    </small>
+                                </div>
+
+                            </div>
+
+                            <figcaption>
+                                Multi-Headed LSTM architecture for modeling
+                                FCC reactor, regenerator, and fractionator dynamics.
+                            </figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <!-- KEY RESEARCH OUTCOMES -->
+                    <div class="research-outcomes">
+
+                        <div class="research-outcomes-header">
+
+                            <h4>Key Research Outcomes</h4>
+
+                            <p>
+                                Forecasting performance evaluated against conventional neural network and LSTM
+                                architectures using an FCC process simulation benchmark.
+                            </p>
+
+                        </div>
+
+                        <div class="research-outcomes-grid">
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">0.9962</span>
+
+                                <h5>R² Forecasting Score</h5>
+
+                                <p>
+                                    Highest reported R² among the
+                                    evaluated forecasting architectures.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">16%</span>
+
+                                <h5>Lower Forecasting MSE</h5>
+
+                                <p>
+                                    MSE reduced from 0.00439 to 0.00367
+                                    compared with CNN-LSTM.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">20 min</span>
+
+                                <h5>Multi-Step Forecasting Horizon</h5>
+
+                                <p>
+                                    Forecasting six FCC product streams
+                                    using 60 minutes of historical data.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">40 / 26 dB</span>
+
+                                <h5>Noise Robustness Evaluation</h5>
+
+                                <p>
+                                    Competitive forecasting accuracy
+                                    across both tested noise levels.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- PUBLICATION DETAILS -->
+                    <div class="research-feature-publication">
+
+                        <p class="research-feature-source">
+                            Ain Shams Engineering Journal · 2025
+                        </p>
+
+                        <p class="research-feature-citation">
+                            Khaldi, M.K., Al-Dhaifallah, M., Taha, O.,
+                            Mahmood, T. and Alharbi, A.
+                            <cite class="research-citation-title">Computational Modeling of a Fluid Catalytic Cracking
+                                Unit</cite>.
+                            Ain Shams Engineering Journal, 16(11), 103661.
+                        </p>
+
+                        <a class="section-link" href="https://doi.org/10.1016/j.asej.2025.103661"
+                            rel="noopener noreferrer" target="_blank">
+                            Read publication ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- 03 / INTELLIGENT MOBILITY -->
+                <article class="research-feature">
+
+                    <!-- TOP: TEXT + FIGURE -->
+                    <div class="research-feature-top">
+
+                        <div class="research-feature-text">
+
+                            <div class="overline">03 / Intelligent Mobility</div>
+
+                            <h3>Deep Koopman Learning for Highway Traffic Forecasting</h3>
+
+                            <p>
+                                Developed a Deep Learning Delay-Embedded Koopman
+                                (DL-DEK) framework for forecasting nonlinear
+                                highway traffic dynamics. The approach combines
+                                neural-network-based lifting functions with
+                                delay-embedded traffic measurements to capture
+                                spatiotemporal dependencies and enable linear
+                                prediction in a learned latent space. Evaluated
+                                on NGSIM and PeMS datasets, the framework improved
+                                forecasting accuracy over conventional Koopman
+                                methods while maintaining competitive performance
+                                with deep learning models, lower computational
+                                requirements, and interpretable traffic dynamics.
+                            </p>
+
+                        </div>
+
+                        <!-- RESEARCH FIGURE -->
+                        <figure class="research-figure">
+
+                            <div class="research-figure-frame">
+
+                                <img src="assets/images/research/Koopman_net.svg" width="1000" height="1000"
+                                    alt="Deep Learning Delay-Embedded Koopman framework for highway traffic forecasting"
+                                    loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+
+                                <div class="research-image-placeholder" hidden>
+                                    <span>RESEARCH FIGURE</span>
+                                    <strong>
+                                        Deep Learning Delay-Embedded Koopman Architecture
+                                    </strong>
+                                    <small>
+                                        assets/images/research/Koopman_net.svg
+                                    </small>
+                                </div>
+
+                            </div>
+
+                            <figcaption>
+                                Deep Learning Delay-Embedded Koopman framework for forecasting highway traffic dynamics.
+                            </figcaption>
+
+                        </figure>
+                    
+
+                    </div>
+
+                    <!-- KEY RESEARCH OUTCOMES -->
+                    <div class="research-outcomes">
+
+                        <div class="research-outcomes-header">
+
+                            <h4>Key Research Outcomes</h4>
+
+                            <p>
+                                Forecasting performance evaluated on six NGSIM
+                                and PeMS traffic datasets against Koopman-based
+                                and deep learning benchmarks.
+                            </p>
+
+                        </div>
+
+                        <div class="research-outcomes-grid">
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">5–16%</span>
+
+                                <h5>Lower Forecasting Error</h5>
+
+                                <p>
+                                    Reduction in average spatial MAE
+                                    compared with the Hankel-DMD
+                                    Koopman benchmark across six datasets.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">0.5–3%</span>
+
+                                <h5>Competitive Forecasting Accuracy</h5>
+
+                                <p>
+                                    Typical forecasting-error difference
+                                    relative to the best-performing
+                                    LSTM and CNN-LSTM models.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">~4.7 s</span>
+
+                                <h5>Efficient Model Training</h5>
+
+                                <p>
+                                    Typical training time across five
+                                    datasets, lower than conventional
+                                    LSTM and CNN-LSTM models.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">KMD</span>
+
+                                <h5>Interpretable Traffic Dynamics</h5>
+
+                                <p>
+                                    Identified coherent spatiotemporal patterns, congestion waves, and oscillatory
+                                    traffic dynamics through Koopman Mode Decomposition.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- PUBLICATION DETAILS -->
+                    <div class="research-feature-publication">
+
+                        <p class="research-feature-source">
+                            International Journal of Intelligent
+                            Transportation Systems Research · 2026
+                        </p>
+
+                        <p class="research-feature-citation">
+                            Khaldi, M.K., Emzir, M.F., Alyazidi, N.M.,
+                            Mysorewala, M.F. and El-Ferik, S.
+                            <cite class="research-citation-title">Forecasting of Highway Traffic Dynamics: a Deep
+                                Learning-Based Delay-Embedded Koopman Operator Approach</cite>.
+                            International Journal of Intelligent
+                            Transportation Systems Research.
+                        </p>
+
+                        <a class="section-link" href="https://doi.org/10.1007/s13177-026-00704-y"
+                            rel="noopener noreferrer" target="_blank">
+                            Read publication ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- 04 / DATA-DRIVEN MODELING -->
+                <article class="research-feature">
+
+                    <!-- TOP: TEXT + FIGURE -->
+                    <div class="research-feature-top">
+
+                        <div class="research-feature-text">
+
+                            <div class="overline">04 / Data-Driven Modeling</div>
+
+                            <h3>From Block-Oriented Models to the Koopman Operator</h3>
+
+                            <p>
+                                Conducted a comprehensive review of block-oriented
+                                and Koopman-based approaches for nonlinear chemical
+                                process modeling, identification, and control.
+                                Complemented by a comparative benchmark of
+                                Hammerstein–Wiener, Koopman linear and bilinear,
+                                and deep neural network models on an industrial-scale
+                                FCC fractionator. The Koopman bilinear model achieved
+                                superior prediction accuracy, reduced training time,
+                                and improved robustness under measurement noise,
+                                demonstrating its potential for modeling complex
+                                nonlinear industrial processes.
+                            </p>
+
+                        </div>
+
+                        <!-- RESEARCH FIGURE -->
+                        <figure class="research-figure" data-asset-pending>
+
+                            <div class="research-figure-frame">
+
+                                <img src=""
+                                    alt="Comparison of Koopman, Hammerstein–Wiener, and neural network models for FCC process modeling"
+                                    loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+
+                                <div class="research-image-placeholder" hidden>
+                                    <span>RESEARCH FIGURE</span>
+                                    <strong>
+                                        Comparative evaluation of nonlinear
+                                        process modeling approaches
+                                    </strong>
+                                    <small>
+                                        
+                                    </small>
+                                </div>
+
+                            </div>
+
+                            <figcaption>
+                                Comparative evaluation of Koopman linear,
+                                Koopman bilinear, Hammerstein–Wiener,
+                                and MH-LSTM models for FCC process dynamics.
+                            </figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <!-- KEY RESEARCH OUTCOMES -->
+                    <div class="research-outcomes">
+
+                        <div class="research-outcomes-header">
+
+                            <h4>Key Research Outcomes</h4>
+
+                            <p>
+                                Comparative evaluation of nonlinear modeling
+                                approaches on an industrial-scale FCC fractionator,
+                                including prediction accuracy, computational
+                                efficiency, and robustness under measurement noise.
+                            </p>
+
+                        </div>
+
+                        <div class="research-outcomes-grid">
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">4.07E-3</span>
+
+                                <h5>Lowest Prediction MSE</h5>
+
+                                <p>
+                                    Koopman bilinear model achieved the
+                                    lowest average MSE across FCC process
+                                    states among the evaluated models.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">57%</span>
+
+                                <h5>Lower Modeling Error</h5>
+
+                                <p>
+                                    Average MSE reduced from 0.00956
+                                    to 0.00407 compared with the
+                                    Hammerstein–Wiener model.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">36%</span>
+
+                                <h5>Shorter Training Time</h5>
+
+                                <p>
+                                    Training time reduced from 155.75
+                                    to 99.47 minutes compared with
+                                    the Koopman linear model.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">4 SNRs</span>
+
+                                <h5>Robustness Under Noise</h5>
+
+                                <p>
+                                    Lowest mean prediction MSE and
+                                    variability across 40, 26, 20,
+                                    and 6 dB noise conditions.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- PUBLICATION DETAILS -->
+                    <div class="research-feature-publication">
+
+                        <p class="research-feature-source">
+                            Mathematics · 2025
+                        </p>
+
+                        <p class="research-feature-citation">
+                            Khaldi, M.K., Al-Dhaifallah, M., Aljamaan, I.,
+                            Al-Sunni, F.M., Taha, O. and Alharbi, A.
+                            <cite class="research-citation-title">From Block-Oriented Models to the Koopman Operator: A
+                                Comprehensive Review on Data-Driven Chemical Reactor Modeling</cite>.
+                            Mathematics, 13(15), 2411.
+                        </p>
+
+                        <a class="section-link" href="https://doi.org/10.3390/math13152411" rel="noopener noreferrer"
+                            target="_blank">
+                            Read publication ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 05 / EMBEDDED AI -->
+                <article class="research-feature">
+
+                    <!-- TOP: TEXT + FIGURE -->
+                    <div class="research-feature-top">
+
+                        <div class="research-feature-text">
+
+                            <div class="overline">05 / Embedded AI</div>
+
+                            <h3>YOLO for UAV and Ground-Robot Logistics</h3>
+
+                            <p>
+                                Investigated the deployment of YOLO-based object
+                                detection models for UAV and ground-robot logistics
+                                applications. Conducted a comparative evaluation
+                                of YOLOv5 and YOLOv8, examining detection accuracy,
+                                inference speed, resource utilization, and onboard
+                                versus remote processing. The study also integrated
+                                a logistics-specific image dataset and an interactive
+                                graphical interface for real-time object detection,
+                                selective visualization, and counting, providing
+                                practical insights into efficient embedded AI
+                                deployment for intelligent logistics.
+                            </p>
+
+                        </div>
+
+                        <!-- RESEARCH FIGURE -->
+                        <figure class="research-figure" data-asset-pending>
+
+                            <div class="research-figure-frame">
+
+                                <img src=""
+                                    alt="YOLO-based object detection for UAV and ground-robot logistics" loading="lazy"
+                                    onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+
+                                <div class="research-image-placeholder" hidden>
+                                    <span>RESEARCH FIGURE</span>
+                                    <strong>
+                                        YOLO-based object detection for
+                                        intelligent logistics
+                                    </strong>
+                                    <small>
+                                        
+                                    </small>
+                                </div>
+
+                            </div>
+
+                            <figcaption>
+                                YOLO-based object detection and embedded
+                                deployment for UAV and ground-robot
+                                logistics applications.
+                            </figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <!-- KEY RESEARCH OUTCOMES -->
+                    <div class="research-outcomes">
+
+                        <div class="research-outcomes-header">
+
+                            <h4>Key Research Outcomes</h4>
+
+                            <p>
+                                Comparative evaluation of YOLO-based object
+                                detection, embedded inference performance,
+                                and interactive monitoring for intelligent
+                                logistics applications.
+                            </p>
+
+                        </div>
+
+                        <div class="research-outcomes-grid">
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">0.617</span>
+
+                                <h5>Detection mAP50-95</h5>
+
+                                <p>
+                                    YOLOv8s achieved an mAP50-95 of 0.617
+                                    compared with 0.608 for YOLOv5s
+                                    on the custom logistics dataset.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">2.4×</span>
+
+                                <h5>Faster Inference</h5>
+
+                                <p>
+                                    YOLOv5s achieved 23 ms inference
+                                    time compared with 56 ms for YOLOv8s
+                                    in the custom-dataset evaluation.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">15–18 FPS</span>
+
+                                <h5>Onboard Processing Performance</h5>
+
+                                <p>
+                                    UAV onboard processing achieved
+                                    15–18 FPS, compared with approximately
+                                    12–13 FPS via a 5 GHz ground station.
+                                </p>
+
+                            </div>
+
+                            <div class="research-outcome-card">
+
+                                <span class="research-outcome-value">GUI</span>
+
+                                <h5>Interactive Object Detection</h5>
+
+                                <p>
+                                    Developed a C# interface for
+                                    real-time object detection,
+                                    selective visualization,
+                                    and dynamic object counting.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- PUBLICATION DETAILS -->
+                    <div class="research-feature-publication">
+
+                        <p class="research-feature-source">
+                            Sensors · 2025
+                        </p>
+
+                        <p class="research-feature-citation">
+                            Dilmi, W., El Ferik, S., Ouerdane, F.,
+                            Khaldi, M.K. and Saif, A.W.A.
+                            <cite class="research-citation-title">Technical Aspects of Deploying UAV and Ground Robots
+                                for Intelligent Logistics Using YOLO on Embedded Systems</cite>.
+                            Sensors, 25(8), 2572.
+                        </p>
+
+                        <a class="section-link" href="https://doi.org/10.3390/s25082572" rel="noopener noreferrer"
+                            target="_blank">
+                            Read publication ↗
+                        </a>
+
+                    </div>
+
+                </article>
+            </section>
+            <section class="research-section" id="complete">
+                <div class="research-section-head">
+                    <div class="overline">03 / Complete Record</div>
+                    <h2>Additional Publications &amp; Manuscripts</h2>
+                    <p>The selected works above are complemented by publications in process engineering, sustainable
+                        systems, and optimization.</p>
+                </div>
+                <details class="research-details">
+                    <summary>View other published works <span aria-hidden="true">+</span></summary>
+                    <div class="research-bibliography">
+                        <article class="research-bib-item"><span class="research-year">2026</span>
+                            <div>
+                                <h3>CO₂-to-Liquid Fuels via C₂+ Electroreduction: Interplay of Kinetics, Catalyst
+                                    Design, and Reactor Architecture</h3>
+                                <p class="research-authors">Moulay, I., El Habib Draou, M., Merrouche, S., Khaldi, M.K.,
+                                    Farooq, W., Zahid, U. and Hossain, M.M.</p>
+                                <p class="research-journal"><em>Journal of Environmental Chemical Engineering</em>,
+                                    14(4), 123350.</p><a
+                                    aria-label="Open DOI for CO₂-to-Liquid Fuels via C₂+ Electroreduction: Interplay of Kinetics, Catalyst Design, and Reactor Architecture"
+                                    href="https://doi.org/10.1016/j.jece.2026.123350" rel="noopener noreferrer"
+                                    target="_blank">DOI: 10.1016/j.jece.2026.123350 ↗</a>
+                            </div>
+                        </article>
+                        <article class="research-bib-item"><span class="research-year">2026</span>
+                            <div>
+                                <h3>Kinetics-Based Process Design of Integrated CO₂ and NOx Capture Using Desalination
+                                    Reject Brine-Derived Sorbents</h3>
+                                <p class="research-authors">Moulay, I., Khaldi, M.K. and Zahid, U.</p>
+                                <p class="research-journal"><em>Desalination</em>, 637, 120451.</p><a
+                                    aria-label="Open DOI for Kinetics-Based Process Design of Integrated CO₂ and NOx Capture Using Desalination Reject Brine-Derived Sorbents"
+                                    href="https://doi.org/10.1016/j.desal.2026.120451" rel="noopener noreferrer"
+                                    target="_blank">DOI: 10.1016/j.desal.2026.120451 ↗</a>
+                            </div>
+                        </article>
+                        <article class="research-bib-item"><span class="research-year">2024</span>
+                            <div>
+                                <h3>Identification of Crude Distillation Unit: A Comparison between Neural Network and
+                                    Koopman Operator</h3>
+                                <p class="research-authors">Abubakar, A.N., Khaldi, M.K., Aldhaifallah, M., Patwardhan,
+                                    R. and Salloum, H.</p>
+                                <p class="research-journal"><em>Algorithms</em>, 17(8), 368.</p><a
+                                    aria-label="Open DOI for Identification of Crude Distillation Unit: A Comparison between Neural Network and Koopman Operator"
+                                    href="https://doi.org/10.3390/a17080368" rel="noopener noreferrer"
+                                    target="_blank">DOI: 10.3390/a17080368 ↗</a>
+                            </div>
+                        </article>
+                        <article class="research-bib-item"><span class="research-year">2023</span>
+                            <div>
+                                <h3>Artificial Intelligence Perspectives: A Systematic Literature Review on Modeling,
+                                    Control, and Optimization of Fluid Catalytic Cracking</h3>
+                                <p class="research-authors">Khaldi, M.K., Al-Dhaifallah, M. and Taha, O.</p>
+                                <p class="research-journal"><em>Alexandria Engineering Journal</em>, 80, 294–314.</p><a
+                                    aria-label="Open DOI for Artificial Intelligence Perspectives: A Systematic Literature Review on Modeling, Control, and Optimization of Fluid Catalytic Cracking"
+                                    href="https://doi.org/10.1016/j.aej.2023.08.066" rel="noopener noreferrer"
+                                    target="_blank">DOI: 10.1016/j.aej.2023.08.066 ↗</a>
+                            </div>
+                        </article>
+                        <article class="research-bib-item"><span class="research-year">2022</span>
+                            <div>
+                                <h3>Optimal Control of a Three-Stages Supply Chain Model with Shortages</h3>
+                                <p class="research-authors">Saif, A.W.A., Khaldi, M.K., El Ferik, S., Baubaid, A. and
+                                    El-Alwani, J.</p>
+                                <p class="research-journal"><em>2022 19th International Multi-Conference on Systems,
+                                        Signals &amp; Devices (SSD)</em>, pp. 2054–2058.</p><a
+                                    aria-label="Open DOI for Optimal Control of a Three-Stages Supply Chain Model with Shortages"
+                                    href="https://doi.org/10.1109/SSD54932.2022.9955889" rel="noopener noreferrer"
+                                    target="_blank">DOI: 10.1109/SSD54932.2022.9955889 ↗</a>
+                            </div>
+                        </article>
+                    </div>
+                </details>
+                <details class="research-details">
+                    <summary>View manuscripts under review <span aria-hidden="true">+</span></summary>
+                    <div class="research-manuscripts">
+                        <p><strong>Under review — not published:</strong></p>
+                        <ul>
+                            <li>Bilinear Koopman Sliding-Mode Control with Disturbance Estimation for Robust Trajectory
+                                Tracking of Robotic Manipulators</li>
+                            <li>Data-Driven Adaptive Sliding Mode Control for Robot Manipulators via Koopman Operator
+                                Theory</li>
+                            <li>Koopman-Based Dual-Mode MPC: Application to Fluid Catalytic Cracker–Fractionator Process
+                            </li>
+                        </ul>
+                    </div>
+                </details>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div><strong>Mustapha K. Khaldi, PhD</strong>
+                <div class="small">Control Systems Researcher, Engineer &amp; Educator</div>
+            </div>
+            <div><a href="mailto:khaldi.mustapha.k@gmail.com">Email</a><a href="research.html">Research</a><a
+                    href="industrial-automation.html">Industrial Automation</a><a href="teaching.html">Teaching</a><a
+                    href="cv.html">CV</a>
+                <div class="small">© <span id="year">2026</span> Mustapha K. Khaldi</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
