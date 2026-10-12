@@ -1,35 +1,61 @@
-# Mustapha K. Khaldi — Portfolio (implementation v1)
 
-A dependency-free, multi-page static portfolio for GitHub Pages.
+# Mustapha K. Khaldi — Professional Portfolio
 
-## Preview locally
+Personal academic and engineering portfolio of **Mustapha K. Khaldi, PhD**, Control Systems Researcher, Engineer & Educator.
 
-From this folder, run `python3 -m http.server 8000` and open `http://localhost:8000`.
+## 🌐 Website
 
-## Publish with GitHub Pages
+The portfolio includes the following sections:
 
-1. Create a public GitHub repository named `<YOUR_USERNAME>.github.io` (recommended for a user site).
-2. Upload **the contents of this folder** to the repository root and commit to `main`.
-3. Go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, then save.
-4. Open `https://<YOUR_USERNAME>.github.io/` after Pages finishes deploying.
+- **Home** — Professional overview
+- **Research** — Research areas, selected publications, and research outcomes
+- **Industrial Automation** — PLC/SCADA projects, Factory I/O, and smart parking automation
+- **Teaching & Technical Training** — Academic teaching, technical training, and course offerings
+- **CV** — Education, professional experience, skills, and contact information
 
-For a project repository with a different name, use `https://<YOUR_USERNAME>.github.io/<REPO>/`. Relative links in this site support that path.
+## 🛠️ Technology
 
-## Editing
+Built using:
 
-- Pages: `index.html`, `research.html`, `industrial-automation.html`, `teaching.html`, `about.html`, `cv.html`.
-- Styles and exact approved light/dark colors: `assets/css/style.css`.
-- Theme persistence and mobile navigation: `assets/js/main.js`.
-- No build tools, packages, tracking or external fonts required.
+- HTML5
+- CSS3
+- JavaScript
 
-## Before public launch
+No frameworks, external dependencies, or build tools are required.
 
-- Replace the portrait placeholder with a licensed/approved professional portrait.
-- Verify publication titles, authorship, years and DOI links.
-- Review all CV-derived dates, institutions and responsibilities.
-- Add an approved CV PDF and replace the pending download text.
-- Review shareability of all industrial assets and label reconstructions.
-- Confirm and add professional profile URLs.
-- Complete the PID lecture or retain its planned label.
+## 💻 Local Preview
 
-Content detail pages are drafts. This v1 intentionally does not invent missing assets or verified achievements.
+To preview the portfolio locally:
+
+1. Clone or download the repository.
+2. Open `index.html` in your web browser.
+
+Alternatively, use the **Live Server** extension in Visual Studio Code for a local development preview.
+
+## 🚀 Deployment
+
+The portfolio is designed for deployment using **GitHub Pages**.
+
+To publish the website:
+
+1. Push the project files to a GitHub repository.
+2. Open the repository's **Settings**.
+3. Navigate to **Pages**.
+4. Select the deployment branch (usually `main`).
+5. Save the configuration.
+
+The website will be accessible through the GitHub Pages URL once deployment is complete.
+
+## 📁 Project Assets
+
+Some project images, research figures, and supporting assets will be added progressively as the portfolio develops.
+
+## 📄 License
+
+**All rights reserved.**
+
+Research content, figures, publications, and professional materials remain subject to their respective authors' and publishers' rights.
+
+---
+
+© 2026 Mustapha K. Khaldi. All rights reserved.
