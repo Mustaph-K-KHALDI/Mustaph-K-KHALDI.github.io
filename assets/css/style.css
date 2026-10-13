@@ -1821,3 +1821,24 @@ p {
     transition: none;
   }
 }
+
+
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.contact-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .contact-buttons {
+        gap: 10px;
+    }
+}
